@@ -1,0 +1,38 @@
+{
+    "name": "XAAW",
+    "description": "XAAW",
+    "keywords": ["XAAW"],
+    "env": {
+        "AA": {
+            "description": "XAAW",
+            "value": "XAAW"
+        },
+        "AUUID": {
+            "description": "UUID",
+            "value": "d32b0240-ae17-4751-a7d2-2e6f89806051"
+        },
+        "CADDYIndexPage": {
+            "description": "CaddyIndex",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "CONFIGCADDY": {
+            "description": "CaddyConfig",
+            "value": "https://raw.githubusercontent.com/zoteqarer/duo-xay/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "XrayConfig",
+            "value": "https://raw.githubusercontent.com/zoteqarer/duo-xay/main/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "support:https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "Storefiles",
+            "value": "https://raw.githubusercontent.com/zoteqarer/duo-xay/main/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/tomoehakurinn/xxod",
+    "repository": "https://github.com/tomoehakurinn/xxod",
+    "stack": "container"
+}
